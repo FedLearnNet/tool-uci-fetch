@@ -1,0 +1,41 @@
+config:
+  hyperparams:
+  - default: '17'
+    description: UCI dataset numeric id to fetch via ucimlrepo (e.g., 17 = Breast
+      Cancer Wisconsin Diagnostic).
+    maxValue: 1000000.0
+    minValue: 1.0
+    name: dataset_id
+    options: []
+    pattern: null
+    type: INTEGER
+  input: []
+  output:
+  - delimiter: null
+    description: Small textual report about the fetched dataset and output shape.
+    hasHeader: null
+    maxValue: null
+    minValue: null
+    name: report
+    required: false
+    shape: null
+    tabularSchema: null
+    type: TEXT
+  - delimiter: null
+    description: Single CSV combining features and targets from the fetched UCI dataset.
+    hasHeader: null
+    maxValue: null
+    minValue: null
+    name: dataset
+    required: false
+    shape: null
+    tabularSchema: null
+    type: CSV
+info:
+  name: tool-uci-fetch
+  slug: tool-uci-fetch
+  type: EXTRACTOR
+  sourceUrl: https://github.com/FedLearnNet/tool-uci-fetch
+  shortDescription: Fetches a UCI dataset by ID and exports its features and targets
+    as a combined CSV table.
+  longDescription: null

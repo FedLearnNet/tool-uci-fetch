@@ -32,8 +32,8 @@ config:
     tabularSchema: null
     type: CSV
 info:
-  name: tool-uci-fetch
-  slug: tool-uci-fetch
+  name: uci-fetch
+  slug: uci-fetch
   type: EXTRACTOR
   sourceUrl: https://github.com/FedLearnNet/tool-uci-fetch
   shortDescription: Fetches a UCI dataset by ID and exports its features and targets

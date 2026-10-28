@@ -1,4 +1,4 @@
-# tool-uci-fetch
+# uci-fetch
 
 Fetches a UCI dataset by ID and exports its features and targets as a combined CSV table.
 
